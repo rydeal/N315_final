@@ -1,0 +1,79 @@
+.homePage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(242, 92, 84, 0.5),
+      rgba(242, 92, 84, 0.5)
+    ),
+    url(../assets/images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+
+  .circles {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    .yellowCircle {
+      position: relative;
+      width: 358px;
+      height: 358px;
+      text-align: center;
+      background-color: $site-yellow;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      z-index: 1;
+
+      .yellowTitle {
+        font-family: "Caveat", sans-serif;
+        font-size: 24px;
+        width: 164px;
+        height: 30px;
+        margin-bottom: 30px;
+      }
+
+      .yellowText {
+        font-family: Lato, sans-serif;
+        font-size: 13px;
+        width: 164px;
+        height: 30px;
+      }
+    }
+
+    .pinkCircle {
+      width: 168px;
+      height: 168px;
+      background-color: $site-lightpink;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 12%;
+      right: 8.5%;
+
+      .pinkText {
+        width: 106px;
+        height: 38px;
+        font-family: Lato, sans-serif;
+        font-style: italic;
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+  }
+}

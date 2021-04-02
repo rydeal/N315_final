@@ -1,0 +1,106 @@
+.loginPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $site-yellow;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .loginContainer {
+    width: 250px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+
+    .loginTitle {
+      font-size: 30px;
+      font-weight: 300;
+      letter-spacing: 3px;
+      margin-bottom: 50px;
+    }
+
+    .dataForm {
+      input {
+        width: 207px;
+        border: 0;
+        border-bottom: 3px solid black;
+        background-color: $site-yellow;
+        margin-bottom: 50px;
+      }
+
+      ::placeholder {
+        font-family: Lato, sans-serif;
+        font-size: 12px;
+        color: #000;
+      }
+
+      .loginBtn {
+        background-color: $site-yellow;
+        font-family: Caveat, sans-serif;
+        font-size: 25px;
+        width: 207px;
+        height: 52px;
+        border-radius: 26px;
+        border: 1px solid #000;
+        // centers the text
+        text-align: center;
+        line-height: 52px;
+      }
+    }
+  }
+
+  .signupContainer {
+    width: 250px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+
+    .signupSubtext {
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    .signupTitle {
+      font-size: 30px;
+      font-weight: 300;
+      letter-spacing: 3px;
+      margin-bottom: 50px;
+    }
+
+    .dataForm {
+      input {
+        width: 207px;
+        border: 0;
+        border-bottom: 3px solid black;
+        background-color: $site-yellow;
+        margin-bottom: 50px;
+      }
+
+      ::placeholder {
+        font-family: Lato, sans-serif;
+        font-size: 12px;
+        color: #000;
+      }
+
+      .signupBtn {
+        background-color: $site-yellow;
+        font-family: Caveat, sans-serif;
+        font-size: 25px;
+        width: 207px;
+        height: 52px;
+        border-radius: 26px;
+        border: 1px solid #000;
+        // centers the text
+        text-align: center;
+        line-height: 52px;
+      }
+    }
+  }
+}
